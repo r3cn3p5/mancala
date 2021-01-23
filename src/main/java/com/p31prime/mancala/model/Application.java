@@ -4,7 +4,8 @@ public class Application {
     public static void main(String[] args) {
         Board board = new Board();
 
-        board.play();
+        board.play(0,3);
 
+        board.printBoard();
     }
 }
