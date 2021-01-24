@@ -1,4 +1,4 @@
-package com.p31prime.mancala.model;
+package gameEngine;
 
 public class Application {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.p31prime.mancala.model;
+package gameEngine;
 
 public class Board {
 
@@ -29,6 +29,8 @@ public class Board {
                 // drop into store if players side
                 if (side == player) {
                     sides[side].store++;
+
+                    // last stone the player gets another go
                     replay = stones == 1 ? true : false;
                 }
 
@@ -57,7 +59,7 @@ public class Board {
 
         }
 
-        // end game
+        // if one player has empty side then the other takes all there remaining stones.
         for (int s=0; s<2; s++ ) {
 
             int t=0;

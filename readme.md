@@ -1,0 +1,4 @@
+# Manacala
+
+## Game Rules
+
