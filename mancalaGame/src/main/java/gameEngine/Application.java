@@ -7,5 +7,6 @@ public class Application {
         board.play(0,3);
 
         board.printBoard();
+
     }
 }
