@@ -32,9 +32,10 @@ public class Board {
 
                     // last stone the player gets another go
                     replay = stones == 1 ? true : false;
+                    
+                    stones--;
                 }
 
-                stones--;
                 pocket = 0;
 
                 // switch sides and continue
